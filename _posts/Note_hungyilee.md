@@ -6,7 +6,6 @@ Author: Lu
 categories: 
 tags: [DL]
 toc: true
-pinned: false
 --- 
 
 # [12]Transfer Learning
