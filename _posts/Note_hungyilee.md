@@ -1,3 +1,14 @@
+---
+layout: post
+title: Hungyi Lee MLspr2021 notes
+date: 2021-12-14
+Author: Lu
+categories: 
+tags: [DL]
+toc: true
+pinned: true
+--- 
+
 # [12]Transfer Learning
 
 <img src="D:\Course\Lihungyi-spr2021\LeeHungyi-Note\2021-12-10.png" alt="2021-12-10" style="zoom: 67%;" />
