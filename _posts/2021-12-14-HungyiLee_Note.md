@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hungyi Lee MLspr2021 notes
+title: HungyiLee_MLspr2021_notes
 date: 2021-12-14
 Author: Lu
 categories: 
