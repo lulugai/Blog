@@ -11,11 +11,11 @@ pinned: true
 
 # [12]Transfer Learning
 
-<img src="D:\Course\Lihungyi-spr2021\LeeHungyi-Note\2021-12-10.png" alt="2021-12-10" style="zoom: 67%;" />
+<img src="../images/2021-12-10.png" alt="2021-12-10" style="zoom: 67%;" />
 
 - Domain shift: Training and testing data have different distributions. (**HW11**)
 
-  <img src="D:\Course\Lihungyi-spr2021\LeeHungyi-Note\2021-12-10-160731.png" alt="2021-12-10-160731" style="zoom: 33%;" />
+  <img src="../images/2021-12-10-160731.png" alt="2021-12-10-160731" style="zoom: 33%;" />
 
 - DaNN: 我们采用DaNN来实现迁移学习。DaNN的主要核心是：模型分成两部分，上半部分是一个特征提取器，下半部分是一个分类器，让source data和target data经过特征提取器后是同分布的。这种操作能够有效降低后续分类器的错误率。
 
@@ -92,7 +92,7 @@ S_i= \frac{e^{V_i}}{\sum_je^{V_j}}
 $$
 如果直接采用softmax层的输出值用来训练小网络，当softmax输出概率分布熵相对较小时，负标签的值会接近0，这对损失函数的贡献非常小，所以在进行知识蒸馏的过程中，引入了“温度”的概念。
 
-<img src="D:\Course\Lihungyi-spr2021\LeeHungyi-Note\162211.png" style="zoom:50%;" />
+<img src="../images/162211.png" style="zoom:25%;" />
 
 更新后的softmax函数为：
 $$
